@@ -2,6 +2,7 @@ import requests
 import os
 from twilio.rest import Client
 from dotenv import load_dotenv
+load_dotenv()
 
 STOCK_API_KEY = os.getenv("STOCK_API_KEY")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
